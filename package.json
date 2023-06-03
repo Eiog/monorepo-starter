@@ -48,11 +48,11 @@
     "vite": "^4.3.9",
     "vitest": "^0.31.4"
   },
-  "simple-git-hooks": {
-    "pre-commit": "npx lint-staged"
+  "gitHooks": {
+    "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,ts,jsx,tsx,vue,md}": [
+    "*.{js,jsx,ts,tsx}": [
       "eslint . --fix",
       "git add"
     ]

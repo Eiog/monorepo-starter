@@ -17,6 +17,7 @@
     "**/test/dts/**",
     "**/playground/**",
     "**/example/**",
-    "**/packages/components/**"
+    "**/packages/components/**",
+    "commitlint.config.cjs"
   ]
 }
